@@ -34,6 +34,10 @@ $ ./pefile_sections.py putty.exe | head -n 13
 0x15C      0x24  Characteristics:               0x40000040
 ```
 
+## shellcode-test.c
+
+Source file to easily add shellcode to for testing/debugging.
+
 ## urlencode.py
 
 This script URL encodes (or optionally decodes) a string fed to it:
