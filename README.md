@@ -13,6 +13,27 @@ $ ls -h -s putty.exe
 764K putty.exe
 ```
 
+## pefile_sections.py
+
+Displays PE sections for the chosen file:
+
+```shell
+$ ./pefile_sections.py putty.exe | head -n 13
+[IMAGE_SECTION_HEADER]
+0x138      0x0   Name:                          .00cfg
+0x140      0x8   Misc:                          0x4       
+0x140      0x8   Misc_PhysicalAddress:          0x4       
+0x140      0x8   Misc_VirtualSize:              0x4       
+0x144      0xC   VirtualAddress:                0x1000    
+0x148      0x10  SizeOfRawData:                 0x200     
+0x14C      0x14  PointerToRawData:              0x400     
+0x150      0x18  PointerToRelocations:          0x0       
+0x154      0x1C  PointerToLinenumbers:          0x0       
+0x158      0x20  NumberOfRelocations:           0x0       
+0x15A      0x22  NumberOfLinenumbers:           0x0       
+0x15C      0x24  Characteristics:               0x40000040
+```
+
 ## urlencode.py
 
 This script URL encodes (or optionally decodes) a string fed to it:
