@@ -16,3 +16,7 @@ Use `-d` to decode:
 $ ./urlencode.py -d 'This%20is%20a%20test%2C%20so%20you%20can%20see%20%22how%20it%20works%21%22'
 This is a test, so you can see "how it works!"
 ```
+
+## x64dbg.ps1
+
+This script will automate installing x64dbg along with Python 2.7, x64dbgpy, mona and xAnalyzer plugins.
