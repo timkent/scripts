@@ -1,5 +1,17 @@
 # scripts
-Mostly OSCP related scripts
+Mostly OSCP/OSCE related scripts
+
+## append_bytes_to_file.py
+
+This script adds the chosen number of bytes to the end of a file:
+
+```shell
+$ ls -h -s putty.exe
+760K putty.exe
+$ ./append_bytes_to_file.py putty.exe 4096
+$ ls -h -s putty.exe
+764K putty.exe
+```
 
 ## urlencode.py
 
