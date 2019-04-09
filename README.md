@@ -54,6 +54,15 @@ $ ./urlencode.py -d 'This%20is%20a%20test%2C%20so%20you%20can%20see%20%22how%20i
 This is a test, so you can see "how it works!"
 ```
 
+## webshell.py
+
+This is a python3 based web shell based on gist here: https://gist.github.com/phoemur/461c97aa5af5c785062b7b4db8ca79cd
+
+I have made the following changes:
+* Make output a bit nicer and safer
+* Work regardless of scheme
+* Append a GUID to the end of the path to provide security through obscurity :)
+
 ## x64dbg.ps1
 
 This script will automate installing x64dbg along with Python 2.7, x64dbgpy, mona and xAnalyzer plugins.
